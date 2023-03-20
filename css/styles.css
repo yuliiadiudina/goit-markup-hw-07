@@ -352,8 +352,8 @@ box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.1
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
-    padding-top: 188px;
-    padding-bottom: 188px; 
+    padding-top: 112px;
+    padding-bottom: 112px; 
      max-width: 480px;
      max-height: 432px;
      margin: 0 auto;
@@ -894,6 +894,7 @@ justify-content: space-around;
  
 }
 
+ 
 .clients-link:hover,
 .clients-link:focus{
     border: 1px solid #404BBF;
@@ -926,6 +927,12 @@ justify-content: space-around;
 }
 }
 
+@media screen and (min-width:768px) {
+.footer-container{
+margin: 0 auto;
+
+}
+}
 
 
 .footer-container-left {
